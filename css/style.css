@@ -1,0 +1,17 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+my-container {
+    flex: 1;
+}
+
+my-footer {
+    margin-top: auto;
+    color: white;
+    padding: -100px; /* Añade un espacio alrededor del contenido del footer */
+}
